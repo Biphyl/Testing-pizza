@@ -1,0 +1,82 @@
+.header {
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/30/pizza-1209748__340.jpg);
+  background-size: cover;
+  opacity: .9;
+  padding-left:550px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.title {
+  color: rgb(54, 36, 2);
+  font-family: 'Dancing Script';
+  font-size: larger;
+}
+h1 {
+  font-size: 80px;
+}
+
+.welcome {
+  background-color: rgb(145, 196, 196);
+  padding: 70px;
+  font-family: 'Barlow Condensed' ;
+}
+
+#card {
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+.cards {
+box-shadow: 5px 5px 5px grey;
+box-shadow: -5px -5px -5px grey;
+padding: 20px;
+margin-left: 2px;
+align-items: center;
+background-color: rgb(229, 230, 235);
+height: 440px;
+width: 300px;
+}
+
+.cards p {
+  font-family: 'Barlow Condensed' ;
+}
+
+.cards:hover {
+box-shadow: 10px 10px 10px grey;
+}
+
+#show {
+  text-align: center;
+}
+
+.footer {
+  background-color: #303036 ;
+  color: #d3d3d3;
+  height: 300px;
+  margin-bottom: 0px;
+}
+.footer .footer-top { 
+  display: flex;
+}
+.footer .footer-top h4 {
+  flex: 1;
+  border: beige solid 2px;
+    margin-left: 30px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: 'Dancing Script';
+}
+
+.footer .footer-bottom {
+  background-color: #343a40;
+  color: #686868;
+  height: 50px;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  margin-top: 0px;
+  padding-top: 20px;
+  width: 100%;
+}
